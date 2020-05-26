@@ -1,0 +1,20 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV SPARK_05
+
+U records%b		records.adb		5ad8b951 NE OO SU IL
+
+D records.adb		20200524181113 5ad8b951 records%b
+D system.ads		20200304083000 4635ec04 system%s
+X 1 records.adb
+1U11*records 1b11 15l5 15t12
+4R22 Rectangle 8e35 9r26 10r27
+6f33 Width{float} 9m40 10r48 13m25 13r42
+7f33 Length{float} 9m54 10r62
+9r17 rect_1{4R22} 10r41 10r55
+10r17 rect_cp{4R22} 13m17 13r34
+

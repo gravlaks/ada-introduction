@@ -1,0 +1,93 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV SPARK_05
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+
+U runners%b		runners.adb		572f220a NE OO SU IL
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20200304083000 76789da1 ada%s
+D a-calend.ads		20200304083000 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20200304083000 9f20b83d ada.calendar.delays%s
+D a-except.ads		20200304083000 291912d5 ada.exceptions%s
+D a-finali.ads		20200304083000 bf4f806b ada.finalization%s
+D a-ioexce.ads		20200304083000 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200304083000 a87e2da7 ada.real_time%s
+D a-stream.ads		20200304083000 119b8fb3 ada.streams%s
+D a-tags.ads		20200304083000 491b781d ada.tags%s
+D a-textio.ads		20200304083000 881db35a ada.text_io%s
+D a-unccon.ads		20200304083000 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200304083000 5ab55268 interfaces%s
+D i-c.ads		20200304083000 5421119b interfaces.c%s
+D i-cstrea.ads		20200304083000 e53d8b8e interfaces.c_streams%s
+D runners.adb		20200525063208 df329150 runners%b
+D system.ads		20200304083000 4635ec04 system%s
+D s-atacco.ads		20200304083000 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20200304083000 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200304083000 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200304083000 54135002 system.exception_table%s
+D s-ficobl.ads		20200304083000 078245e4 system.file_control_block%s
+D s-finroo.ads		20200304083000 4ff27390 system.finalization_root%s
+D s-linux.ads		20200304083000 2fda6ad1 system.linux%s
+D s-multip.ads		20200304083000 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200310122954 2a880dab system.os_constants%s
+D s-osinte.ads		20200304083000 c6986a0c system.os_interface%s
+D s-parame.ads		20200304083000 f896c45c system.parameters%s
+D s-secsta.ads		20200304083000 283dec34 system.secondary_stack%s
+D s-soflin.ads		20200304083000 a7318a92 system.soft_links%s
+D s-stache.ads		20200304083000 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200304083000 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200304083000 09bd3940 system.standard_library%s
+D s-stoele.ads		20200304083000 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200304083000 2b3f8252 system.task_info%s
+D s-taspri.ads		20200304083000 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200304083000 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20200304083000 1d8c1ccb system.tasking%s
+D s-taprob.ads		20200304083000 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20200304083000 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20200304083000 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20200304083000 cca55c94 system.tasking.stages%s
+D s-traent.ads		20200304083000 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200304083000 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200304083000 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 11r17
+X 10 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 11r21
+263U14*Put_Line 15|11s29
+X 15 runners.adb
+2U11*runners 2b11 19l5 19t12
+3T19 Runner 3d27 5l13 5e19 6r13 7r13 8b19 12l13 12t19
+3e27 N{character} 11r50
+4Y23 Start 10b24 15s11 17s11
+6t9 A{3T19} 15r9
+7t9 B{3T19} 17r9
+X 31 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

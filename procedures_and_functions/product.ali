@@ -1,0 +1,14 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+
+U product%b		product.adb		01c688ab NE OO SU
+
+D product.adb		20200524201909 01c688ab product%b
+D system.ads		20200304083000 4635ec04 system%s
+X 1 product.adb
+1V10*Product{integer} 1b10 1>19 1>22 4l5 4t12
+1i19 A{integer} 3r16
+1i22 B{integer} 3r18
+

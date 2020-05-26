@@ -1,0 +1,55 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV NO_IO
+RV SPARK_05
+
+U test_functions%b	test_functions.adb	e157fcbd NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W product%b		product.adb		product.ali
+W sum%b			sum.adb			sum.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+
+D ada.ads		20200304083000 76789da1 ada%s
+D a-except.ads		20200304083000 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200304083000 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200304083000 119b8fb3 ada.streams%s
+D a-tags.ads		20200304083000 491b781d ada.tags%s
+D a-textio.ads		20200304083000 881db35a ada.text_io%s
+D a-unccon.ads		20200304083000 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200304083000 5ab55268 interfaces%s
+D i-cstrea.ads		20200304083000 e53d8b8e interfaces.c_streams%s
+D product.adb		20200524201909 01c688ab product%b
+D sum.adb		20200524200853 20333cb4 sum%b
+D system.ads		20200304083000 4635ec04 system%s
+D s-crtl.ads		20200304083000 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200304083000 54135002 system.exception_table%s
+D s-ficobl.ads		20200304083000 078245e4 system.file_control_block%s
+D s-imgint.ads		20200304083000 02dbe0c2 system.img_int%s
+D s-parame.ads		20200304083000 f896c45c system.parameters%s
+D s-secsta.ads		20200304083000 283dec34 system.secondary_stack%s
+D s-soflin.ads		20200304083000 a7318a92 system.soft_links%s
+D s-stache.ads		20200304083000 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200304083000 09bd3940 system.standard_library%s
+D s-stoele.ads		20200304083000 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200304083000 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200304083000 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200304083000 1b7d22d2 system.wch_con%s
+D test_functions.adb	20200524202004 48bffbf8 test_functions%b
+X 1 ada.ads
+16K9*Ada 20e8 26|1r6 13r17 14r17 15r17 16r17
+X 6 a-textio.ads
+49K13*Text_IO 471e16 26|1w10 13r21 14r21 15r21 16r21
+263U14*Put_Line 26|13s29 14s29 15s29 16s29
+X 10 product.adb
+1V10*Product{integer} 26|2w6 16s52
+X 11 sum.adb
+1V10*Sum{integer} 26|3w6 14s52
+X 26 test_functions.adb
+5U11*test_functions 5b11 18l5 18t19
+8i17 A{integer} 11m17 14r56 16r60
+9i17 B{integer} 12m17 14r58 16r63
+

@@ -1,0 +1,18 @@
+V "GNAT Lib v8"
+M P W=b
+P ZX
+
+RN
+RV SPARK_05
+
+U mod_range%b		mod_range.adb		50dc0497 NE OO SU IL
+
+D mod_range.adb		20200524170920 50dc0497 mod_range%b
+D system.ads		20200304083000 4635ec04 system%s
+X 1 mod_range.adb
+1U11*mod_range 1b11 13l5 13t14
+4M14 Word 7r12 7r20
+5I14 count<long_integer> 8r13 8r22
+7m9 W{4M14} 10m9 10r14
+8i9 C{5I14} 11m9 11r14
+

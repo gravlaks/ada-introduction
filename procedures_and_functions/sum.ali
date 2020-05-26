@@ -1,0 +1,14 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+
+U sum%b			sum.adb			20333cb4 NE OO SU
+
+D sum.adb		20200524200853 20333cb4 sum%b
+D system.ads		20200304083000 4635ec04 system%s
+X 1 sum.adb
+1V10*Sum{integer} 1b10 1>15 1>18 4l5 4t8
+1i15 A{integer} 3r16
+1i18 B{integer} 3r18
+
